@@ -1,0 +1,74 @@
+{
+  `path`: `/Users/sueunbae/Desktop/sequential-links/styles.css`,
+  `content`: `* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#linkContainer {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.link-item {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #e9f7fe;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    text-align: left;
+}
+
+.link-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.link-item a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.link-item a:hover {
+    text-decoration: underline;
+}
+
+.link-description {
+    margin-top: 5px;
+    color: #666;
+}`
+}
