@@ -1,6 +1,4 @@
-{
-  `path`: `/Users/sueunbae/Desktop/sequential-links/styles.css`,
-  `content`: `* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -70,5 +68,4 @@ h1 {
 .link-description {
     margin-top: 5px;
     color: #666;
-}`
 }

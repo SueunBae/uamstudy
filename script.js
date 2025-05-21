@@ -1,27 +1,25 @@
-{
-  `path`: `/Users/sueunbae/Desktop/sequential-links/script.js`,
-  `content`: `document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     // 링크 데이터 - 실제 사용할 링크 정보로 수정하세요
     const links = [
         {
-            url: 'https://moaform.com/q/z7cqiv',
+            url: 'https://example.com/link1',
             title: '첫 번째 링크',
-            description: '실험 시나리오 A 입니다.'
+            description: '첫 번째 링크에 대한 설명입니다.'
         },
         {
-            url: 'https://moaform.com/q/NOmwim',
+            url: 'https://example.com/link2',
             title: '두 번째 링크',
-            description: '실험 시나리오 B 입니다.'
+            description: '두 번째 링크에 대한 설명입니다.'
         },
         {
-            url: 'https://moaform.com/q/Az5wl7',
+            url: 'https://example.com/link3',
             title: '세 번째 링크',
-            description: '실험 시나리오 C 입니다.'
+            description: '세 번째 링크에 대한 설명입니다.'
         },
         {
-            url: 'https://moaform.com/q/SPwxcl',
+            url: 'https://example.com/link4',
             title: '네 번째 링크',
-            description: '실험 시나리오 D 입니다.'
+            description: '네 번째 링크에 대한 설명입니다.'
         }
     ];
 
@@ -38,8 +36,8 @@
         
         // 링크 내용 설정
         linkElement.innerHTML = `
-            <a href=\"${links[index].url}\" target=\"_blank\">${links[index].title}</a>
-            <p class=\"link-description\">${links[index].description}</p>
+            <a href="${links[index].url}" target="_blank">${links[index].title}</a>
+            <p class="link-description">${links[index].description}</p>
         `;
         
         // 컨테이너에 추가
@@ -60,5 +58,4 @@
     setTimeout(() => {
         showLinksSequentially(0);
     }, 500); // 초기 지연 시간 (0.5초)
-});`
-}
+});

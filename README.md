@@ -1,28 +1,15 @@
-# uamstudy
+# 순차적 링크 표시 페이지
 
+GitHub Pages를 사용하여 방문자에게 4개의 링크를 순차적으로 표시하는 간단한 웹페이지입니다.
 
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <title>UAM 실험 링크 분배</title>
-  <script>
-    const links = [
-      "https://moaform.com/q/z7cqiv", // A 조건
-      "https://moaform.com/q/NOmwim", // B 조건
-      "https://moaform.com/q/Az5wl7", // C 조건
-      "https://moaform.com/q/SPwxcl"  // D 조건
-    ];
+## 사용 방법
 
-    let count = localStorage.getItem("participantCount") || 0;
-    let index = count % links.length;
-    localStorage.setItem("participantCount", ++count);
+1. 이 저장소를 포크하거나 클론합니다.
+2. `script.js` 파일에서 링크 정보를 원하는 URL과 설명으로 수정합니다.
+3. GitHub 저장소에 푸시합니다.
+4. GitHub 저장소 설정에서 GitHub Pages를 활성화합니다.
 
-    // 리디렉트
-    window.location.href = links[index];
-  </script>
-</head>
-<body>
-  <p>잠시만 기다려주세요... 설문 링크로 이동 중입니다.</p>
-</body>
-</html>
+## 사용자 정의
+
+- `script.js`: 링크 URL, 제목 및 설명을 수정할 수 있습니다.
+- `styles.css`: 디자인과 애니메이션을 수정할 수 있습니다.
