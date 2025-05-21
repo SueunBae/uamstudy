@@ -2,22 +2,22 @@ document.addEventListener('DOMContentLoaded', function() {
     // 링크 데이터 - 실제 사용할 링크 정보로 수정하세요
     const links = [
         {
-            url: 'https://example.com/link1',
+            url: 'https://moaform.com/q/z7cqiv',
             title: '첫 번째 링크',
             description: '첫 번째 링크에 대한 설명입니다.'
         },
         {
-            url: 'https://example.com/link2',
+            url: 'https://moaform.com/q/NOmwim',
             title: '두 번째 링크',
             description: '두 번째 링크에 대한 설명입니다.'
         },
         {
-            url: 'https://example.com/link3',
+            url: 'https://moaform.com/q/Az5wl7',
             title: '세 번째 링크',
             description: '세 번째 링크에 대한 설명입니다.'
         },
         {
-            url: 'https://example.com/link4',
+            url: 'https://moaform.com/q/SPwxcl',
             title: '네 번째 링크',
             description: '네 번째 링크에 대한 설명입니다.'
         }
